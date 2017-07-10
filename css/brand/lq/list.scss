@@ -1,0 +1,58 @@
+@import "../../base.css";
+.list-container {
+    .brand-breadcrumb {
+        height: 38px;
+        line-height: 38px;
+        padding-left: 3px;
+        background-image: linear-gradient(to bottom, #fff, #EbEbEb);
+        border-top: 2px solid #EBEBEB;
+        border-bottom: 1px solid #cccccc;
+        color: #5A5A5A;
+        margin: 0;
+        li {
+            float: left;
+            a {
+                color: #5A5A5A;
+            }
+        }
+        >li+li:before {
+            color: #000;
+            content: ">";
+            padding: 0 5px;
+        }
+    }
+    .list-content {
+        padding: 10px 6px;
+        background-color: #F2F2F2;
+        .hot-brand {
+            h3 {
+                height: 42px;
+                padding-left: 10px;
+                margin: 0;
+                line-height: 42px;
+                color: #A04604;
+                border: 1px solid #CCCCCC;
+                font-size: 16px;
+            }
+        }
+        .brand-list {
+            ul {
+                padding-top: 10px;
+                li {
+                    background-color: #F2F2F2;
+                    border: none;
+                    border-bottom: 2px solid #cccccc;
+                    padding-left: 3px;
+                    span {
+                        color: #888888;
+                    }
+                    a {
+                        color: #000;
+                        font-weight: bold;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

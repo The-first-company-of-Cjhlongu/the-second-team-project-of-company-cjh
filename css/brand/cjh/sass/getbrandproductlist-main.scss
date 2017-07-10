@@ -1,0 +1,90 @@
+@import "base.scss";
+@import "normalize6.0.scss";
+html,body{
+  width: 100%;
+}
+.productInfo-main {
+  font-size: 12px;
+  height: 800px;
+  background: pink;
+  .top-bar {
+    width: 100%;
+    height: 100px;
+    background: red;
+  }
+  .brandIntro {
+    padding: 10px;
+    background-color: #F2F2F2;
+    h2 {
+      padding: 10px 5px;
+    }
+    .intro {
+      color: #666666;
+      font-size: 12px;
+      padding: 10px 5px;
+      background-color: #fff;
+    }
+    .hot-sale-rerecommend {
+      color: #AAAAAA;
+      font-size: 12px;
+      padding: 10px 5px;
+      background-color: #F7F7F7;
+    }
+  }
+  .product-main {
+    width: 100%;
+    background-color: #fff;
+    .nav {
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid #ccc;
+      ul {
+        display: flex;
+        li {
+          width: 25%;
+          text-align: center;
+          line-height: 50px;
+        }
+      }
+    }
+    .product-list {
+        ul{
+          li{
+            height: 140px;
+            .imgs {
+              width: 120px;
+              height: 100%;
+              float: left;
+            }
+            .price{
+              padding: 10px;
+              float: right;
+              height: 100%;
+              p:first-child{
+                font-size: 16px;
+                line-height: 30px;
+              }
+              p:nth-child(2){
+                span{
+                  font-size: 16px;
+                  line-height: 40px;
+                }
+              }
+              p:nth-child(3){
+                margin: 0px 0 30px 0;
+                display: flex;
+                line-height: 30px;
+                justify-content: space-between;
+                span{
+                  color: #A1A1A1;
+                }
+              }
+            }
+          }
+        }
+    }
+
+  }
+}
+
+

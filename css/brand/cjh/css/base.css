@@ -1,0 +1,56 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+u, i, b, s, em {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: '';
+  display: block;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  clear: both
+  /* 清除左右的浮动*/
+}
+
+input {
+  border: none;
+  outline: none;
+}

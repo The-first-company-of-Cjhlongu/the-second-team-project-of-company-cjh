@@ -1,0 +1,53 @@
+@import url(../../base.css);
+.list-container .brand-breadcrumb {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 3px;
+  background-image: -webkit-linear-gradient(top, #fff, #EbEbEb);
+  background-image: linear-gradient(to bottom, #fff, #EbEbEb);
+  border-top: 2px solid #EBEBEB;
+  border-bottom: 1px solid #cccccc;
+  color: #5A5A5A;
+  margin: 0;
+}
+.list-container .brand-breadcrumb li {
+  float: left;
+}
+.list-container .brand-breadcrumb li a {
+  color: #5A5A5A;
+}
+.list-container .brand-breadcrumb > li + li:before {
+  color: #000;
+  content: ">";
+  padding: 0 5px;
+}
+.list-container .list-content {
+  padding: 10px 6px;
+  background-color: #F2F2F2;
+}
+.list-container .list-content .hot-brand h3 {
+  height: 42px;
+  padding-left: 10px;
+  margin: 0;
+  line-height: 42px;
+  color: #A04604;
+  border: 1px solid #CCCCCC;
+  font-size: 16px;
+}
+.list-container .list-content .brand-list ul {
+  padding-top: 10px;
+}
+.list-container .list-content .brand-list ul li {
+  background-color: #F2F2F2;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+  padding-left: 3px;
+}
+.list-container .list-content .brand-list ul li span {
+  color: #888888;
+}
+.list-container .list-content .brand-list ul li a {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
